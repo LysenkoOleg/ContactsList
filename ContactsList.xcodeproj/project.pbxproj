@@ -44,6 +44,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C4D9AB727402A0300C1B091 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2C501D9E273FFEA700AD27FD /* DataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2C4D9AB827402A2E00C1B091 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C501D9C273FFD8300AD27FD /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C4D9AB927402A3F00C1B091 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C501D8A273FFBA000AD27FD /* ContactsListApp.swift */,
+				2C501D8C273FFBA000AD27FD /* ContentView.swift */,
+				2C501D98273FFBD500AD27FD /* ContactsView.swift */,
+				2C4D9AB527401CED00C1B091 /* PersonRow.swift */,
+				2C37E27E27400E7800536B44 /* ContactInformation.swift */,
+				2C501D9A273FFBEF00AD27FD /* NumbersView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C4D9ABA27402A4A00C1B091 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2C501D8E273FFBA100AD27FD /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		2C501D7E273FFBA000AD27FD = {
 			isa = PBXGroup;
 			children = (
@@ -63,15 +100,10 @@
 		2C501D89273FFBA000AD27FD /* ContactsList */ = {
 			isa = PBXGroup;
 			children = (
-				2C501D8A273FFBA000AD27FD /* ContactsListApp.swift */,
-				2C501D8C273FFBA000AD27FD /* ContentView.swift */,
-				2C501D98273FFBD500AD27FD /* ContactsView.swift */,
-				2C501D9C273FFD8300AD27FD /* Person.swift */,
-				2C4D9AB527401CED00C1B091 /* PersonRow.swift */,
-				2C37E27E27400E7800536B44 /* ContactInformation.swift */,
-				2C501D9A273FFBEF00AD27FD /* NumbersView.swift */,
-				2C501D9E273FFEA700AD27FD /* DataManager.swift */,
-				2C501D8E273FFBA100AD27FD /* Assets.xcassets */,
+				2C4D9AB927402A3F00C1B091 /* Views */,
+				2C4D9AB827402A2E00C1B091 /* Models */,
+				2C4D9AB727402A0300C1B091 /* Managers */,
+				2C4D9ABA27402A4A00C1B091 /* Sources */,
 				2C501D90273FFBA100AD27FD /* Preview Content */,
 			);
 			path = ContactsList;
