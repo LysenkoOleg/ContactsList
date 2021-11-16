@@ -17,23 +17,17 @@ struct ContactInformation: View {
                     Spacer()
                     Image(systemName: "person.fill")
                         .resizable()
-                    .frame(width: 120, height: 120)
+                        .frame(width: 120, height: 120)
+                        .padding()
                     Spacer()
                 }
-                    HStack {
-                        Image(systemName: "phone")
-                            .foregroundColor(.blue)
-                        Text("\(person.phones)")
-                    }
-                    HStack {
-                        Image(systemName: "tray")
-                            .foregroundColor(.blue)
-                        Text("\(person.email)")
-                    }
+                
+                Label(person.phones, systemImage: "phone")
+                Label(person.email, systemImage: "tray")
+                
             }
         }
         .navigationTitle("\(person.fullName)")
-        .listStyle(.grouped)
     }
 }
 
